@@ -1,10 +1,11 @@
+import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      Alan Wang © 2022
-    </div>
+    <Box alignSelf="center">
+      <Text>Alan Wang © 2022</Text>
+    </Box>
   )
 }
 
