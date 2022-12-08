@@ -3,12 +3,17 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <Box display="flex" flexDirection="row">
-     <Image></Image>
+    <Box display="flex" flexDirection="column" padding="20px">
+     <Text alignSelf="center">
+      ✨ About me! ✨
+     </Text>
+     
      <Text>
-        Hi I'm Alan!
+        A 4th year UBC biochem student, just trying his best out here. I currently work in bioinformatics studying endogenous retroviruses,
+         but I'm looking to venture out and expand into the world of tech!
         <br/>
-        I'm a 4th year UBC undergrad studying biochemistry. I currently work in bioinformatics and I'm excited to meet you!
+        Being a retired swimmer, my hobbies outside of academics and work highlight the idea of staying active. Catch me
+         at the gym doing anything but cardio! 
       </Text>
     </Box>
   )
