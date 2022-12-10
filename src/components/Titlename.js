@@ -6,8 +6,8 @@ const Titlename = () => {
   return (
     <Box display="flex" flexDirection="row" padding="20px">
       <Box display="flex" flexDirection="column">
-        <Text>Hi, my name is</Text>
-        <Text fontWeight="bold">Alan Wang</Text>
+        <Text className='name'>Hi, my name is</Text>
+        <Text fontWeight="bold" className='name'>Alan Wang</Text>
       </Box>
 
       <Image src={Charmeleon} borderRadius="100%" boxSize="200px"/>

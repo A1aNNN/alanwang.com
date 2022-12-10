@@ -12,3 +12,40 @@
   background-color: brown;
   align-self: center;
 }
+
+.title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 73px;
+}
+
+/* About Me section */
+.aboutMeContent{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+/* Alan Wang name */
+.name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 73px;
+  text-align: center;
+}
+
+/* For Funz section */
+.forFunContent{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+}

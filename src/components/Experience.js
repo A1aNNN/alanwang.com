@@ -5,7 +5,7 @@ import ExperienceCard from './ExperienceCard'
 const Experience = () => {
   return (
     <Box display="flex" flexDirection="column" padding="20px">
-      <Text alignSelf="center">💡 Experiences 💡</Text>
+      <Text alignSelf="center" className='title'>💡 Experiences 💡</Text>
 
       <ExperienceCard
         title="Bioinformatics Co-op Student @ Tokuyama lab"
