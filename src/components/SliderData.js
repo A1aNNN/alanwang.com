@@ -1,8 +1,9 @@
-// import Simpson from "../images/52657236.png"
+import Simpson from "../images/52657236.png"
 
 export const SliderData = [
     {
-        image: "../images/52657236.png"
+        // image: "../images/52657236.png"
+        image: {Simpson}
     },
 
     {

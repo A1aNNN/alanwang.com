@@ -4,7 +4,7 @@ import React from 'react'
 
 //deconstructing
 
-const ExperienceCard = ({title, location, point1, point2}) => {
+const ExperienceCard = ({title, location, points}) => {
   // console.log(props, 'is the props')
 
   return (
@@ -15,12 +15,11 @@ const ExperienceCard = ({title, location, point1, point2}) => {
       <Text>
         {location}
       </Text>
-      <Text>
-        {point1}
-      </Text>
-      <Text>
-        {point2}
-      </Text>
+      {points.map((point, index) => {
+        return <Text key={index}>
+          - {point}
+        </Text>
+      })}
     </Box>
   )
 }
