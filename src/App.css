@@ -1,0 +1,98 @@
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  /* flex-direction: row; */
+  background-color: aqua;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  background-color: brown;
+  align-self: center;
+}
+
+.title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 73px;
+}
+
+/* About Me section */
+.aboutMeContent{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+/* Alan Wang name */
+.name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 73px;
+  text-align: center;
+}
+
+/* For Funz section */
+.forFunContent{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+}
+
+
+
+
+.slider {
+  position: relative;
+  display: flex;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 3rem;
+  color: #000;
+  right: 32px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 3rem;
+  color: #000;
+  left: 32px;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
