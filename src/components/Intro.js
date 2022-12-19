@@ -4,7 +4,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <Box display="flex" flexDirection="column" padding="20px">
-     <Text alignSelf="center" className="title">
+     <Text alignSelf="center" className="title" id='aboutMe'>
       ✨ About me! ✨
      </Text>
      

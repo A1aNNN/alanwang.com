@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <Box alignSelf="center">
-      <Text>Alan Wang © 2022</Text>
+      <Text>Alan Wang © 2023</Text>
     </Box>
   )
 }
