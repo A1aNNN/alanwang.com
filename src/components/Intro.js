@@ -3,7 +3,7 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <Box display="flex" flexDirection="column" padding="20px">
+    <Box display="flex" flexDirection="column" padding="20px" paddingBottom="150px">
      <Text alignSelf="center" className="title" id='aboutMe'>
       ✨ About me! ✨
      </Text>

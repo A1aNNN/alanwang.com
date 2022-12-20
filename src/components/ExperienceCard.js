@@ -9,14 +9,14 @@ const ExperienceCard = ({title, location, points}) => {
 
   return (
     <Box display="flex" flexDirection="column">
-      <Text>
+      <Text className='experienceTitle'>
         {title}
       </Text>
-      <Text>
+      <Text className='experienceLocation'>
         {location}
       </Text>
       {points.map((point, index) => {
-        return <Text key={index}>
+        return <Text key={index} className="experienceText">
           - {point}
         </Text>
       })}

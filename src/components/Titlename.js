@@ -4,7 +4,7 @@ import Headshot from "../images/52657236.png"
 
 const Titlename = () => {
   return (
-    <Box display="flex" flexDirection="row" padding="20px">
+    <Box display="flex" flexDirection="row" padding="20px" paddingBottom="150px" paddingTop="80px">
       <Box display="flex" flexDirection="column">
         <Text className='name'>Hi, my name is</Text>
         <Text fontWeight="bold" className='name'>Alan Wang</Text>

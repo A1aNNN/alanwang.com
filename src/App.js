@@ -11,7 +11,7 @@ import { Box, ChakraProvider } from '@chakra-ui/react'
 // Components
 import Navbar from './components/Navbar';
 import TitleName from "./components/Titlename"
-import SpinningWords from './components/SpinningWords';
+import WordsTypewriter from './components/WordsTypewriter';
 import Intro from './components/Intro';
 import Experience from './components/Experience';
 import Fun from './components/Fun';
@@ -27,11 +27,11 @@ import SliderData from './components/SliderData';
 function App() {
   // 2. Wrap ChakraProvider at the root of your app
   return <ChakraProvider>
-    <Box display="flex" backgroundColor="#f2e5d9" height="auto" width="100%" flexDirection="Column" alignItems="center">
+    <Box display="flex" height="auto" width="100%" flexDirection="Column" alignItems="center">
       
       <Navbar/>
       <TitleName/>
-      <SpinningWords/>
+      <WordsTypewriter/>
       <Intro/>
       <Experience/>
       <Fun/>

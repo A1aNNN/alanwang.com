@@ -96,3 +96,40 @@
   transition-duration: 1s;
   transform: scale(1.08);
 }
+
+
+/* For the typewriter */
+.typer {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 36px;
+  padding-bottom: 100px;
+}
+
+
+/* For the experience section */
+.experienceTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.experienceLocation {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.experienceText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+}

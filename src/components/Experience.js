@@ -24,8 +24,8 @@ const experienceList = [
 
 const Experience = () => {
   return (
-    <Box display="flex" flexDirection="column" padding="20px">
-      <Text alignSelf="center" className='title' id='experiences'>💡 Experiences 💡</Text>
+    <Box display="flex" flexDirection="column" padding="20px" paddingBottom="150px">
+      <Text alignSelf="center" className='title' id='experiences' paddingBottom="40px">💡 Experiences 💡</Text>
 
       {experienceList.map((experience, index) => {
         return <ExperienceCard

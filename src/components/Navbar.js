@@ -15,31 +15,18 @@ const Navbar = () => {
             href: "#experiences"
         },
         {
-            title: "forFunz",
+            title: "For Funz",
             href: "#forFunz"
         }
     ]
 
     return (
-        <Box backgroundColor={{base: "red", md: "yellow", lg: "pink"}} width="100%">
+        <Box backgroundColor={{base: "red", md: "yellow", lg: "pink"}} width="100%" className="Navbar">
             {navbarButtons.map((button, index) => {
                 return <Link href={button.href}> {button.title} </Link>
             })}
         </Box>
     )
-
-
-//     return (
-//         <Box backgroundColor={{base: "red", md: "yellow", lg: "pink"}} width="100%">
-//             <Text> <MoonIcon/> Navbar </Text>
-//             <Link href="#aboutMe"> About Me </Link>
-//             <Link href="#experiences"> Experiences </Link>
-//             <Link href="#forFunz"> For Funz </Link>
-//             {/* Ternary operator or conditional rendering (in react bc uses ternary to conditionally render a component) */}
-//             {/* If lg and is true, then going to display Test component, if not true then display Test2 component */}
-//             {isDesktop ? <Test/> : <Test2/>}
-//         </Box>
-//   )
 }
 
 const Test = () => {
