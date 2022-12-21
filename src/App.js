@@ -9,7 +9,6 @@ import './App.css';
 import { Box, ChakraProvider } from '@chakra-ui/react'
 
 // Components
-import Navbar from './components/Navbar';
 import TitleName from "./components/Titlename"
 import WordsTypewriter from './components/WordsTypewriter';
 import Intro from './components/Intro';
@@ -19,6 +18,7 @@ import Footer from './components/Footer';
 import Socials from "./components/Socials"
 import ImageSlider from './components/ImageSlider';
 import SliderData from './components/SliderData';
+import NavbarTwo from './components/NavbarTwo';
 
 
 
@@ -29,7 +29,7 @@ function App() {
   return <ChakraProvider>
     <Box display="flex" height="auto" width="100%" flexDirection="Column" alignItems="center">
       
-      <Navbar/>
+      <NavbarTwo/>
       <TitleName/>
       <WordsTypewriter/>
       <Intro/>

@@ -9,7 +9,8 @@ const Navbar = () => {
     const navbarButtons = [
         {
             title: "About me",
-            href: "#aboutMe"},
+            href: "#aboutMe"
+        },
         {
             title: "Experiences",
             href: "#experiences"
