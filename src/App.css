@@ -10,8 +10,8 @@
 
 /* Variables for colours */
 :root{
-  --mainColor: #b2bff6;
-  --mainColorLight: #5767aa;
+  --mainColor: #fff;
+  --mainColorLight: #fff;
   --secondaryColor: #DB2B39;
   --textColor: #000;
 }
@@ -35,7 +35,7 @@ nav a{
   text-decoration: none;
 }
 nav a:hover{
-  color: var(--secondaryColor);
+  color:#6592cc;
 }
 
 /* Style the navbar buttons */
@@ -49,6 +49,20 @@ header .nav-btn {
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+header .name {
+  font-weight: bold;
+  height: 80px;
+  padding: 0 2rem;
+  font-size: xx-large;
+  color:#6592cc;
+}
+
+header .name:hover {
+  transition-duration: 1s;
+  transform: scale(1.1);
 }
 
 /* Responsive media */
@@ -106,16 +120,27 @@ header .nav-btn {
 }
 
 .title{
-  font-family: 'Inter';
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
   line-height: 73px;
 }
 
+.title:hover {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 73px;
+  color:#6592cc;
+  transition-duration: 1s;
+  transform: scale(1.1);
+}
+
 /* About Me section */
 .aboutMeContent{
-  font-family: 'Inter';
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -124,7 +149,7 @@ header .nav-btn {
 
 /* Alan Wang name */
 .name{
-  font-family: 'Inter';
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 55px;
@@ -134,7 +159,7 @@ header .nav-btn {
 
 /* For Funz section */
 .forFunContent{
-  font-family: 'Inter';
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -203,15 +228,30 @@ header .nav-btn {
 
 /* For the experience section */
 .experienceTitle {
-  font-family: 'Inter';
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
 }
 
+.experienceTitles {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.experienceTitleTwo {
+  padding-left: 10px;
+  color:#6592cc;
+}
+
 .experienceLocation {
-  font-family: 'Inter';
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -219,7 +259,7 @@ header .nav-btn {
 }
 
 .experienceText {
-  font-family: 'Inter';
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;

@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <Box display="flex" flexDirection="column" padding="20px" paddingBottom="150px">
      <Text alignSelf="center" className="title" id='aboutMe'>
-      ✨ About me! ✨
+      ~ About me ~
      </Text>
      
      <Text className='aboutMeContent'>

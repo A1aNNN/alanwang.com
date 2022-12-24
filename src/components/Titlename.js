@@ -1,17 +1,19 @@
 import { Box, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import Headshot from "../images/52657236.png"
+import WordsTypewriter from './WordsTypewriter';
 
 const Titlename = () => {
   return (
-    <Box display="flex" flexDirection="row" padding="20px" paddingBottom="150px" paddingTop="80px">
-      <Box display="flex" flexDirection="column">
+    <Box display="flex" flexDirection="row" padding="20px" paddingBottom="250px" paddingTop="80px">
+      <Box display="flex" flexDirection="column" position="absolute" left="300px" alignItems="baseline">
         <Text className='name'>Hi, my name is</Text>
         <Text fontWeight="bold" className='name'>Alan Wang</Text>
+        <WordsTypewriter/>
       </Box>
 
 {/* Fix this squished image */}
-      <Image src={Headshot} borderRadius="100%" boxSize="150px"/>
+      {/* <Image src={Headshot} borderRadius="100%" boxSize="150px" position="absolute" right="200px"/> */}
     </Box>
   )
 }

@@ -49,29 +49,6 @@ const WordsTypewriter = () => {
             }}/>
         </div>
     </Box>
-    // <div>
-    //   <div>
-    //     <h2>
-    //       <div className='title'>{state.title}</div>
-    //       <div className='titleTwo'>{state.titleTwo}</div>
-    //       <div className='titleThree'>{state.titleThree}</div>
-    //     </h2>
-
-    //     <div className='text' id='WordsTypewriter'>
-    //       <Typewriter
-    //         options={{
-    //           autoStart: true,
-    //           loop: true,
-    //           delay: 40,
-    //           strings: [
-    //             "UBC Biochemistry.",
-    //             ":^)",
-    //             "Coffee enthusiast."
-    //           ],
-    //         }}/>
-    //     </div>
-    //   </div>
-    // </div>
   )
 };
 

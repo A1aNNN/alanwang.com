@@ -31,7 +31,7 @@ function App() {
       
       <NavbarTwo/>
       <TitleName/>
-      <WordsTypewriter/>
+      {/* <WordsTypewriter/> */}
       <Intro/>
       <Experience/>
       <Fun/>
