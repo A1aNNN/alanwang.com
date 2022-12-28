@@ -19,6 +19,8 @@ import Socials from "./components/Socials"
 import ImageSlider from './components/ImageSlider';
 import SliderData from './components/SliderData';
 import NavbarTwo from './components/NavbarTwo';
+import Projects from './components/Projects';
+
 
 
 
@@ -34,6 +36,7 @@ function App() {
       {/* <WordsTypewriter/> */}
       <Intro/>
       <Experience/>
+      <Projects/>
       <Fun/>
       <ImageSlider slides={SliderData}/>
       <Socials/>

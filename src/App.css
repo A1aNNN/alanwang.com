@@ -265,3 +265,14 @@ header .name:hover {
   font-size: 20px;
   line-height: 36px;
 }
+
+
+/* for the Project section */
+.tag {
+  background-color: #6592cc;
+  color: #fff;
+}
+
+.tag:hover {
+  color:#6592cc;
+}

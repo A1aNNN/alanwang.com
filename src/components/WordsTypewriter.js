@@ -30,7 +30,7 @@ const WordsTypewriter = () => {
   });
 
   return(
-    <Box className='typer' display="flex" flexDirection="row">
+    <Box className='typer' display="flex" flexDirection="row" paddingTop="20px">
       <div>
         <Text paddingRight="10px">I'm a</Text>
       </div>
@@ -41,7 +41,7 @@ const WordsTypewriter = () => {
               loop: true,
               delay: 40,
               strings: [
-                "UBC Biochemistry.",
+                "UBC Biochemistry undergrad.",
                 "former swimmer.",
                 "coffee enthusiast.",
                 "tetris wannabe"

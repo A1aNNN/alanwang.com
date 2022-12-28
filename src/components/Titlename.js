@@ -5,8 +5,8 @@ import WordsTypewriter from './WordsTypewriter';
 
 const Titlename = () => {
   return (
-    <Box display="flex" flexDirection="row" padding="20px" paddingBottom="250px" paddingTop="80px">
-      <Box display="flex" flexDirection="column" position="absolute" left="300px" alignItems="baseline">
+    <Box display="flex" flexDirection="row" padding="80px 0px 25px">
+      <Box display="flex" flexDirection="column" alignItems="center">
         <Text className='name'>Hi, my name is</Text>
         <Text fontWeight="bold" className='name'>Alan Wang</Text>
         <WordsTypewriter/>
