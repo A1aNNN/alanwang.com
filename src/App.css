@@ -276,8 +276,18 @@ header .name:hover {
   color:#6592cc;
 }
 
-.accordion {
-  sm: 20px;
-  md: 200px;
-  lg: 500px;
+
+.accordionTitle{  
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;}
+
+.accordionText {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
 }

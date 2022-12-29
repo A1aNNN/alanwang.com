@@ -37,12 +37,12 @@ const Projects = () => {
             {projects.map((project, index) => {
                 return <AccordionItem key={index}>
                     <AccordionButton>
-                        <Box>
+                        <Box className="accordionTitle">
                             {project.title}
                         </Box>
                         <AccordionIcon/>
                     </AccordionButton>
-                    <AccordionPanel>
+                    <AccordionPanel className="accordionText">
                         {project.description}
                         <Box display="flex" flexDirection="row">
                             {project.tags.map((tag, index) => {
