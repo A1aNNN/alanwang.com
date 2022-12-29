@@ -32,7 +32,7 @@ const Projects = () => {
     <Box Box display="flex" flexDirection="column" paddingBottom="150px">
         <Text alignSelf="center" className='title' paddingBottom="30px">~ Projects ~</Text>
 
-        <Accordion allowMultiple>
+        <Accordion allowMultiple className="accordion" w={{base: "450px", md: "600px", lg: "950px"}}>
             <Box>
             {projects.map((project, index) => {
                 return <AccordionItem key={index}>

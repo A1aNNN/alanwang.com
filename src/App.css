@@ -84,7 +84,6 @@ header .name:hover {
     justify-content: center;
     gap: 1.5rem;
     background-color: var(--mainColor);
-    /* transition: 1s; */
     transform: translateY(-100vh);
   }
 
@@ -275,4 +274,10 @@ header .name:hover {
 
 .tag:hover {
   color:#6592cc;
+}
+
+.accordion {
+  sm: 20px;
+  md: 200px;
+  lg: 500px;
 }
