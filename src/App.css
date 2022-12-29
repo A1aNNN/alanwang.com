@@ -52,6 +52,11 @@ header .nav-btn {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.navbarHeading {
+  transition-duration: 1s;
+  transform: scale(1.5);
+}
+
 header .name {
   font-weight: bold;
   height: 80px;
@@ -273,7 +278,8 @@ header .name:hover {
 }
 
 .tag:hover {
-  color:#6592cc;
+  transition-duration: 1s;
+  transform: scale(1.1);;
 }
 
 
