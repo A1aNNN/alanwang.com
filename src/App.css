@@ -297,3 +297,16 @@ header .name:hover {
   font-size: 20px;
   line-height: 36px;
 }
+
+
+/* for the "Alan Wang" in the title */
+.highlight {
+  transition: 1s;
+}
+
+.highlight:hover {
+  background-color: #6592cc;
+  color: #fff;
+  transition: 1s;
+  padding: 10px;
+}

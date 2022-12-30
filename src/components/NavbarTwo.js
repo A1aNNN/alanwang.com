@@ -15,7 +15,7 @@ const NavbarTwo = () => {
 
   return (
     <header>
-        <Text className="name">Alan Wang</Text>
+        <Text className="name">Alan Wang.</Text>
         <nav ref={navRef}>
             <a href="#aboutMe" className="navbarHeading">About me</a>
             <a href="#experiences" className="navbarHeading">Experiences</a>
