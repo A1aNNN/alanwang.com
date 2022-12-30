@@ -57,6 +57,10 @@ header .nav-btn {
   transform: scale(1.5);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header .name {
   font-weight: bold;
   height: 80px;
