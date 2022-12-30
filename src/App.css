@@ -63,6 +63,7 @@ header .name {
   padding: 0 2rem;
   font-size: xx-large;
   color:#6592cc;
+  transition: 1s;
 }
 
 header .name:hover {
@@ -129,6 +130,7 @@ header .name:hover {
   font-weight: 400;
   font-size: 45px;
   line-height: 73px;
+  transition: 1s;
 }
 
 .title:hover {
@@ -275,6 +277,7 @@ header .name:hover {
 .tag {
   background-color: #6592cc;
   color: #fff;
+  transition: 1s;
 }
 
 .tag:hover {
@@ -306,6 +309,7 @@ header .name:hover {
 
 .highlight:hover {
   background-color: #6592cc;
+  /* border-radius: 10%; */
   color: #fff;
   transition: 1s;
   padding: 10px;
