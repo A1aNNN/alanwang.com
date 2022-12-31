@@ -1,11 +1,6 @@
-// import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import Box from "./components/Box";
-
-
-// import * as React from 'react'
-
-// 1. import `ChakraProvider` component
+import { Container } from 'react-bootstrap'
 import { Box, ChakraProvider } from '@chakra-ui/react'
 
 // Components
@@ -20,6 +15,7 @@ import ImageSlider from './components/ImageSlider';
 import SliderData from './components/SliderData';
 import NavbarTwo from './components/NavbarTwo';
 import Projects from './components/Projects';
+import Youtube from './components/Youtube';
 
 
 
@@ -38,7 +34,8 @@ function App() {
       <Experience/>
       <Projects/>
       <Fun/>
-      <ImageSlider slides={SliderData}/>
+      {/* <ImageSlider slides={SliderData}/> */}
+      <Youtube/>
       <Socials/>
       <Footer/>
       

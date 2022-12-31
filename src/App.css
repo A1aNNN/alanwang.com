@@ -318,3 +318,25 @@ header .name:hover {
   transition: 1s;
   padding: 10px;
 }
+
+
+/* for the Youtube short */
+.youtube {
+  display: flex;
+  flex-direction: row;
+  transition: 1s;
+  padding-bottom: 80px;
+}
+
+.youtube:hover {
+  transition-duration: 1s;
+  transform: scale(1.05);;
+}
+
+.youtubeText {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+}
