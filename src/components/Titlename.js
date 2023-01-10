@@ -13,7 +13,7 @@ const Titlename = () => {
         <WordsTypewriter/>
       </Box>
       <Box>
-        <Image src={Alan} alt='Alan Headshot' boxSize="400px" objectFit="cover" borderRadius="full" paddingLeft="25px" display={{base: "none", md: "initial"}}/>
+        <Image src={Alan} alt='Alan Headshot' boxSize={{md: "280px", lg: "400px"}} objectFit="cover" borderRadius="full" paddingLeft="25px" display={{base: "none", md: "initial"}}/>
       </Box>
     </Box>
   )
