@@ -55,6 +55,7 @@ header .nav-btn {
 .navbarHeading {
   transition-duration: 1s;
   transform: scale(1.5);
+  font-weight: 400;
 }
 
 html {
@@ -155,8 +156,11 @@ header .name:hover {
   font-weight: 400;
   font-size: 25px;
   line-height: 36px;
-  padding-left: 70px;
+  width: 65%;
+  align-items: center;
 }
+
+
 
 /* Alan Wang name */
 .name{
@@ -356,3 +360,5 @@ header .name:hover {
   width: 20px;
   height: 20px;
 }
+
+

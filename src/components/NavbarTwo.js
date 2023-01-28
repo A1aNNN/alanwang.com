@@ -16,19 +16,21 @@ const NavbarTwo = () => {
   return (
     <header>
         <Text className="name">Alan Wang.</Text>
-        <nav ref={navRef}>
-            <a href="#aboutMe" className="navbarHeading">About me</a>
-            <a href="#experiences" className="navbarHeading">Experiences</a>
-            <a href="#forFunz" className="navbarHeading">For Funz</a>
-            <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                <FaTimes/>
+        <Box>
+            <nav ref={navRef}> 
+                <a href="#aboutMe" className="navbarHeading">About me</a>
+                <a href="#experiences" className="navbarHeading">Experiences</a>
+                <a href="#forFunz" className="navbarHeading">For Funz</a>
+                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                    <FaTimes/>
+                </button>
+
+            </nav>
+
+            <button className="nav-btn" onClick={showNavbar}>
+                <FaBars/>
             </button>
-
-        </nav>
-
-        <button className="nav-btn" onClick={showNavbar}>
-            <FaBars/>
-        </button>
+        </Box>
     </header>
   )
 }
