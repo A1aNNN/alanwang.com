@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <Box alignSelf="center">
+    <Box alignSelf="center" pb="10px">
       <Text>Alan Wang © 2023</Text>
     </Box>
   )
